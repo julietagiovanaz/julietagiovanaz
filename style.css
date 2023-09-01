@@ -1,0 +1,137 @@
+/*fuente de google*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    font-family: "Montserrat", sans-serif;
+}
+#botonera li{
+    display: inline-block;  
+    margin-bottom: 40px;
+    margin-left: 150px;
+}
+#botonera{
+    margin-top: -80px;
+    padding-bottom: 30px;
+}
+a{
+    padding: 8px 16px;
+    background-color: #EE7019;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: medium;
+    margin-top: -120px;
+}
+a:hover{
+    background-color: black;
+    color: #EE7019;
+}
+#nosotros{
+    height: 300px;
+    background-color: #EE7019;
+    color: #ffffff;
+    align-items: center;
+    display: flex;
+}
+.izq{
+    display: 0 0 auto;
+    margin-top: 10px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    vertical-align: middle;
+}
+.der{ 
+    flex: 1;
+    float: right;
+    vertical-align: middle;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    margin-top: 60px;
+    font-size: large;
+    color: white;
+    text-align: left;
+
+}
+section{
+    background-color: black;
+    height: 500px;
+    padding: 50px;
+    display: inline-table;
+}
+#li{
+    padding: 100px;
+    margin-bottom: 50px;
+}
+#menu{
+    width: 50%;
+    float: left;
+    display: block;
+}
+#menu2{
+    width: 50%;
+    float: right;
+    display: block;
+}
+.textomenu{
+    color: #ffffff;
+    width: 60%;
+    float: right;
+    padding: 10px;
+    margin-top: 40px;
+}
+.textomenu2{
+    font-size: medium;
+    color: #ffffff;
+    width: 60%;
+    float: right;
+    padding: 10px;
+    margin-top: 40px;    
+}
+#catering{
+    display: flex;
+    float: right;
+    height: 600px;
+    background-color: #EE7019;
+    color: #ffffff;
+    vertical-align: middle;
+}
+#textocatering{
+    float: left;
+    color: #000000;
+    vertical-align: left;
+    margin-left: 20px;
+    
+}
+form{
+    width: 50%;
+    margin: 0 auto;
+    color: #ffffff;
+    background-color: #000000;
+}
+label, input, textarea{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+input, textarea{
+    border-radius: 10px;
+    background-color: #EE7019;
+}
+input, textarea:hover{
+    background-color: white;
+    color: #000000;
+}
+footer{
+    font-family: "Montserrat", sans-serif;
+    height: 40px;
+    background-color: #EE7019;
+    padding-top: 20px;
+    text-align: center;
+    vertical-align: middle;
+    color: #ffffff;
+}
