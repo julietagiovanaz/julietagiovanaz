@@ -3,19 +3,26 @@
 *{
     margin: 0px;
     padding: 0px;
-
 }
 body{
     font-family: "Montserrat", sans-serif;
+}
+header{
+    position: sticky;
+    display: block;
+    top: 0px;
+    background-color: #ffffff;
 }
 #botonera li{
     display: inline-block;  
     margin-bottom: 40px;
     margin-left: 150px;
+    display: inline-block;
+    background-color: #ffffff;
 }
 #botonera{
     margin-top: -80px;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 a{
     padding: 8px 16px;
@@ -25,6 +32,7 @@ a{
     border-radius: 10px;
     font-size: medium;
     margin-top: -120px;
+    text-decoration: none;
 }
 a:hover{
     background-color: black;
@@ -79,17 +87,17 @@ section{
 }
 .textomenu{
     color: #ffffff;
-    width: 60%;
+    width: 70%;
     float: right;
-    padding: 10px;
+    padding: 0px;
     margin-top: 40px;
 }
 .textomenu2{
     font-size: medium;
     color: #ffffff;
-    width: 60%;
+    width: 70%;
     float: right;
-    padding: 10px;
+    padding: 0px;
     margin-top: 40px;    
 }
 #catering{
@@ -108,7 +116,7 @@ section{
     
 }
 form{
-    width: 50%;
+    width: 100%;
     margin: 0 auto;
     color: #ffffff;
     background-color: #000000;
@@ -120,11 +128,10 @@ label, input, textarea{
 }
 input, textarea{
     border-radius: 10px;
-    background-color: #EE7019;
+    background-color: #ffffff;
 }
-input, textarea:hover{
-    background-color: white;
-    color: #000000;
+input:hover{
+    background-color: #EE7019
 }
 footer{
     font-family: "Montserrat", sans-serif;
