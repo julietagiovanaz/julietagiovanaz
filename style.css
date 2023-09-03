@@ -6,7 +6,7 @@
 }
 body{
     font-family: "Montserrat", sans-serif;
-}
+    }
 #iso{
     background-image: url(images/isokaff.png);
     background-repeat: no-repeat;
@@ -25,7 +25,7 @@ header{
     display: inline-block;  
     margin-bottom: 20px;
     margin-top: 40px;
-    margin-left: 80px;
+    margin-left: 60px;
     display: inline-block;
     background-color: #ffffff;
 }
@@ -245,10 +245,20 @@ textarea:hover{
 footer{
     position: sticky;
     font-family: "Montserrat", sans-serif;
-    height: 40px;
+    height: 100px;
     background-color: #000000;
     padding-top: 20px;
     text-align: center;
     vertical-align: middle;
     color: #EE7019;
+}
+footer a{
+    background-color: black;
+    background-image: image(img/instagram);
+}
+#ig{    
+    padding: 10px;
+}
+#fb{
+     padding: 10px;
 }
