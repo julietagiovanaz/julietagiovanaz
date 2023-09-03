@@ -7,6 +7,14 @@
 body{
     font-family: "Montserrat", sans-serif;
 }
+#iso{
+    background-image: url(images/isokaff.png);
+    background-repeat: no-repeat;
+    font-size: 0;
+    width: 114px;
+    height: 154px;
+    float: left;
+}
 header{
     position: sticky;
     display: block;
@@ -15,14 +23,18 @@ header{
 }
 #botonera li{
     display: inline-block;  
-    margin-bottom: 40px;
-    margin-left: 150px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    margin-left: 80px;
     display: inline-block;
     background-color: #ffffff;
 }
 #botonera{
-    margin-top: -80px;
-    padding-bottom: 20px;
+    vertical-align: middle;
+    display: inline-block;  
+    margin-bottom: 40px;
+    margin-top: 40px;
+    margin-left: 80px;
 }
 a{
     padding: 8px 16px;
@@ -39,13 +51,17 @@ a:hover{
     color: #EE7019;
 }
 #nosotros{
-    height: 300px;
+    height: 350px;
     background-color: #EE7019;
     color: #ffffff;
-    align-items: center;
-    display: flex;
+    display: inline-block;
 }
-.izq{
+#nosotros-titulo{
+    color:#ffffff;
+    padding-bottom: 50px;
+    text-align: center;
+}
+#izq{
     display: 0 0 auto;
     margin-top: 10px;
     float: left;
@@ -53,17 +69,15 @@ a:hover{
     margin-bottom: 10px;
     vertical-align: middle;
 }
-.der{ 
-    flex: 1;
-    float: right;
-    vertical-align: middle;
-    margin-left: 20px;
-    margin-bottom: 50px;
-    margin-top: 60px;
+#nosotros p{ 
+    display: inline-block;
     font-size: large;
-    color: white;
-    text-align: left;
-
+    color: #ffffff;
+    padding-left: 20px;
+    width: 45%;
+    float: inline-start;
+    vertical-align: top;
+    margin-top: 50px;
 }
 section{
     background-color: black;
@@ -74,6 +88,17 @@ section{
 #li{
     padding: 100px;
     margin-bottom: 50px;
+}
+#menu-titulo{
+    color:#ffffff;
+    padding-bottom: 50px;
+    text-align: center;
+}
+#tabla p{
+    color: #ffffff;
+}
+#ofrecemos{
+    margin-bottom: 40px;
 }
 #menu{
     width: 50%;
@@ -100,45 +125,130 @@ section{
     padding: 0px;
     margin-top: 40px;    
 }
-#catering{
-    display: flex;
-    float: right;
-    height: 600px;
-    background-color: #EE7019;
+#deleitate{
     color: #ffffff;
-    vertical-align: middle;
+    padding-left: 20px;
+    display: inline-block;
 }
-#textocatering{
+#nuestrapasion{
+    color: #ffffff;
+    padding-left: 20px;
+    margin-top: 50px;
+    display: inline-block;
+}
+#catering-titulo{
+    color:#ffffff;
+    padding-bottom: 50px;
+    text-align: center;
+}
+#catering{
+    display: inline-block;
+    height: 450px;
+    background-color: #EE7019;
+}
+#catering img{
     float: left;
-    color: #000000;
-    vertical-align: left;
-    margin-left: 20px;
-    
+}
+#textocatering p{
+    color: #ffffff;
+    padding-left: 20px;
+    display: inline-block;
+    width: 45%;
+    margin-top: 50px;
+}
+.catering{
+    display: inline-block;
+    width: 48%;
+}
+#hablemos{
+    color: #ffffff;
+}
+#form p{
+    color: #ffffff;
+    margin: 20px auto;
 }
 form{
-    width: 100%;
     margin: 0 auto;
     color: #ffffff;
     background-color: #000000;
+}
+#form{
+    background-color: #000000;
+    width: 93%;
+    vertical-align: middle;
+}
+#contacto-titulo{
+    color:#ffffff;
+    padding-bottom: 50px;
+    text-align: center;
+    background-color: #000000;
+    vertical-align: middle;
+    padding: 30px;
+}
+legend{
+    margin-bottom: 20px;
+    text-align: center;
+}
+label{
+    margin-left: 120px;
 }
 label, input, textarea{
     display: block;
     width: 100%;
     margin-bottom: 10px;
 }
+label:hover, input:hover, textarea:hover{
+    color: #ffffff;
+}
 input, textarea{
     border-radius: 10px;
     background-color: #ffffff;
+    width: 80%;
+    margin-left: 120px;
+}
+input{
+    height: 30px;
 }
 input:hover{
-    background-color: #EE7019
+    background-color: #EE7019;
+}
+textarea:hover{
+    background-color: #EE7019;
+}
+#botonenviar{
+    width: 80%;
+    height: 30px;
+    margin-left: 120px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #EE7019;
+    color: #ffffff;
+}
+#botonenviar:hover{
+    background-color: #ffffff;
+    color: #000000;
+}
+#mapa{
+    background-color: #EE7019;
+    height: 380px;
+    width: 93%;
+    vertical-align: middle;
+}
+#ubicacion-titulo{
+    color:#ffffff;
+    padding-bottom: 50px;
+    text-align: center;
+    background-color: #EE7019;
+    vertical-align: middle;
+    padding: 30px;
 }
 footer{
+    position: sticky;
     font-family: "Montserrat", sans-serif;
     height: 40px;
-    background-color: #EE7019;
+    background-color: #000000;
     padding-top: 20px;
     text-align: center;
     vertical-align: middle;
-    color: #ffffff;
+    color: #EE7019;
 }
