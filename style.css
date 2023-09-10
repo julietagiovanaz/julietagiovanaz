@@ -4,9 +4,13 @@
     margin: 0px;
     padding: 0px;
 }
+#contenedorppal{
+    width: 1340px;
+    margin: 0 auto;
+}
 body{
     font-family: "Montserrat", sans-serif;
-    }
+}
 #iso{
     background-image: url(images/isokaff.png);
     background-repeat: no-repeat;
@@ -17,9 +21,9 @@ body{
 }
 header{
     position: sticky;
-    display: block;
     top: 0px;
     background-color: #ffffff;
+    width: 1340px;
 }
 #botonera li{
     display: inline-block;  
@@ -74,8 +78,7 @@ li a{
     font-size: large;
     color: #ffffff;
     padding-left: 20px;
-    width: 45%;
-    float: inline-start;
+    width: 600px;
     vertical-align: top;
     margin-top: 50px;
 }
@@ -84,6 +87,7 @@ section{
     height: 500px;
     padding: 50px;
     display: inline-table;
+    width: 1240px;
 }
 #li{
     padding: 100px;
@@ -101,29 +105,32 @@ section{
     margin-bottom: 40px;
 }
 #menu{
-    width: 50%;
+    width: 600px;
     float: left;
     display: block;
 }
 #menu2{
-    width: 50%;
+    width: 600px;
     float: right;
     display: block;
 }
 .textomenu{
     color: #ffffff;
-    width: 70%;
+    width: 400px;
     float: right;
     padding: 0px;
-    margin-top: 40px;
+    margin-top: 20px;
+    font-size: small;
+    display: block;
 }
 .textomenu2{
-    font-size: medium;
     color: #ffffff;
-    width: 70%;
+    width: 400px;
     float: right;
     padding: 0px;
-    margin-top: 40px;    
+    margin-top: 20px;
+    font-size: small;
+    display: block;
 }
 #deleitate{
     color: #ffffff;
@@ -153,13 +160,12 @@ section{
     color: #ffffff;
     padding-left: 20px;
     display: inline-block;
-    width: 45%;
+    width: 600px;
     margin-top: 50px;
 }
 .catering{
     display: inline-block;
-    width: 48%;
-}
+ }
 #hablemos{
     color: #ffffff;
 }
@@ -174,7 +180,6 @@ form{
 }
 #form{
     background-color: #000000;
-    width: 93%;
     vertical-align: middle;
 }
 #contacto-titulo{
@@ -194,7 +199,6 @@ label{
 }
 label, input, textarea{
     display: block;
-    width: 100%;
     margin-bottom: 10px;
 }
 label:hover, input:hover, textarea:hover{
@@ -203,7 +207,7 @@ label:hover, input:hover, textarea:hover{
 input, textarea{
     border-radius: 10px;
     background-color: #ffffff;
-    width: 80%;
+    width: 1000px;
     margin-left: 120px;
 }
 input{
@@ -216,7 +220,7 @@ textarea:hover{
     background-color: #EE7019;
 }
 #botonenviar{
-    width: 80%;
+    width: 1000px;
     height: 30px;
     margin-left: 120px;
     margin-top: 20px;
@@ -231,8 +235,8 @@ textarea:hover{
 #mapa{
     background-color: #EE7019;
     height: 380px;
-    width: 93%;
     vertical-align: middle;
+    width: 1240px;
 }
 #ubicacion-titulo{
     color:#ffffff;
@@ -250,6 +254,7 @@ footer{
     text-align: center;
     vertical-align: middle;
     color: #EE7019;
+    width: 1340px;
 }
 #kaff{
     color: #ffffff;
