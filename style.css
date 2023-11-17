@@ -5,7 +5,7 @@
 }
 
 html{
-    /*background-image: url(images/portada-portfolio.jpg);
+    /*background-image: url(imagenes/portada-portfolio.jpg);
     background-repeat: no-repeat;*/
     background-color: #e5dece;
 }
@@ -14,7 +14,7 @@ body{
     background-color: #e5dece;
 }
 #iso{
-    background-image: url(images/ISO-100X100.jpg);
+    background-image: url(imagenes/ISO-100X100.jpg);
     background-repeat: no-repeat;
     font-size: 0;
     width: 100px;
@@ -22,36 +22,18 @@ body{
     float: left;
 }
 header{
-    top: 0px;
     background-color: #e5dece;
-}
-#botonera li{
-    display: inline-block;  
-    margin-bottom: 20px;
-    margin-top: 20px;
-    margin-left: 100px;
+    height: 100px;
     display: inline-block;
 }
-#botonera{
-    display: inline-block;  
+button{
+    margin-top: 60px;
     margin-bottom: 20px;
-    margin-top: 20px;
-    margin-left: 100px;
+    margin-left: 80px;
+    background-color: blue;
 }
-li a{
-    
-    padding: 8px 16px;
-    background-color: #be2824;
-    color: #e5dece;
-    font-weight: bold;
-    border-radius: 10px;
-    font-size: medium;
-    margin-top: -120px;
-    text-decoration: none;
-}
-#botonera a:hover{
-    background-color: #3860a0;
-    color: #ffffff;
+#dropdown-item{
+     color: red;
 }
 #home-titulo h1{
     text-align: center;
@@ -70,8 +52,8 @@ li a{
 }
 #servicios-titulo h2{
     text-align: center;
-    padding-top: 40px;
     padding-bottom: 40px;
+    padding-left: 20px;
 }
 #servicios-titulo{
     padding: 40px;
@@ -79,10 +61,6 @@ li a{
 #portfolio-titulo h2{
     text-align: center;
     padding-bottom: 40px;
-}
- 
-#form p{
-    margin: 20px auto;
 }
 form{
     margin: 0 auto;
@@ -107,6 +85,7 @@ label, input, textarea{
     display: block;
     margin-bottom: 10px;
 }
+
 input, textarea{
     border-radius: 10px;
     background-color: #ffffff;
@@ -144,4 +123,11 @@ textarea:hover{
     border-radius: 20px;
     text-align: center;
     
+}
+footer{
+    height: 50px;
+    display: inline;
+    text-align: center;
+    margin: 0;
+    color: blue;
 }
