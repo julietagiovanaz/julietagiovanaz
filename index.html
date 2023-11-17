@@ -11,19 +11,21 @@
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
   </head>
 <body>
-    <div class="conteiner">
-    <header class="row">
-    <section class="row" id="home-titulo">
+    <header>
+    <section>
+    <div class="dropdown">
         <div class="col-12 col-md-2 col-lg-12">
         <h1 id="iso">JG</h1>
-        <!--<img id="iso" src="images/ISO-100X100.jpg" alt="JG DSG">-->
-    <ul id="botonera">
-        <li><a href="#home-titulo">Home</a></li>
-        <li><a href="#quiensoy-titulo">Quién soy?</a></li>
-        <li><a href="#servicios-titulo">Servicios</a></li>
-        <li><a href="#portfolio-titulo">Porfolio</a></li>
-        <li><a href="#contacto-titulo">Contacto</a></li>
-    </ul>  
+        <!--<img id="iso" src="imagenes/ISO-100X100.jpg" alt="JG DSG">-->
+        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Menú
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#quiensoy-titulo">Quién soy?</a></li>
+            <li><a class="dropdown-item" href="#servicios-titulo">Servicios</a></li>
+            <li><a class="dropdown-item" href="#portfolio-titulo">Portfolio</a></li>
+            <li><a class="dropdown-item" href="#contacto-titulo">Contacto</a></li>
+          </ul>
     </div>
     </section>
     </header>
@@ -31,7 +33,7 @@
     <h1>¡Bienvenidos al fascinante mundo del diseño gráfico a través de mi portfolio!</h1>
     </div>
     <section class="row" id="quiensoy-titulo">
-        <div class="col-12 col-md-2 col-lg-12">
+        <div class="col-12 col-md-4 col-lg-12">
         <h2>¿Quién soy?</h2>
         <p>Soy Julieta Giovanaz, una apasionada estudiante de diseño gráfico con una creatividad sin límites y una dedicación inquebrantable hacia la expresión visual. Este portfolio es el reflejo de mi viaje en constante evolución, donde cada proyecto es una historia que cuenta no solo mi habilidad técnica, sino también mi compromiso con la innovación y la comunicación efectiva.
 
@@ -43,7 +45,7 @@
         </section>
         </div>
     <section class="row" id="servicios-titulo">
-        <div class="col-12 col-md-2 col-lg-12">
+        <div class="col-12 col-md-4 col-lg-12">
         <h2>Servicios</h2>
         <h3>Saca el máximo partido a tu imagen con nuestro Servicio de Diseño Gráfico </h3>
         <p>¿Estás buscando resaltar tu marca, destacar entre la competencia y dejar una impresión duradera en tu audiencia? ¡Nosotros podemos ayudarte! Ofrecemos servicios de diseño gráfico que van más allá de la estética visual; creamos experiencias visuales impactantes y significativas.</p>
@@ -77,29 +79,29 @@
 
     <section class="row" id="portfolio-titulo">
         <section class="row">
-        <div class="col-12 col-md-2 col-lg-12">
+        <div class="col-12 col-md-4 col-lg-12">
         <h2>Portfolio</h2></div>
         <section class="row">
-            <div class="col-12 col-md-2 col-lg-12">
+            <div class="col-12 col-md-4 col-lg-12">
             <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img src="images/naipes.png" class="d-block w-100" alt="naipes">
+                    <img src="imagenes/naipes.png" class="d-block w-100" alt="naipes">
                   </div>
                   <div class="carousel-item">
-                    <img src="images/triptico2.png" class="d-block w-100" alt="triptico">
+                    <img src="imagenes/triptico2.png" class="d-block w-100" alt="triptico">
                   </div>
                   <div class="carousel-item">
-                    <img src="images/triptico.png" class="d-block w-100" alt="triptico1">
+                    <img src="imagenes/triptico.png" class="d-block w-100" alt="triptico1">
                   </div>
                   <div class="carousel-item">
-                    <img src="images/infografia.png" class="d-block w-100" alt="infografia">
+                    <img src="imagenes/infografia.png" class="d-block w-100" alt="infografia">
                   </div>
                   <div class="carousel-item">
-                    <img src="images/kutral mockup.png" class="d-block w-100" alt="kutral">
+                    <img src="imagenes/kutral mockup.png" class="d-block w-100" alt="kutral">
                   </div>
                   <div class="carousel-item">
-                    <img src="images/Waterhouse.png" class="d-block w-100" alt="quilmes">
+                    <img src="imagenes/Waterhouse.png" class="d-block w-100" alt="quilmes">
                   </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
@@ -113,17 +115,19 @@
                 </div>
             </section>
     <section class="row" id="form">
-        <div class="col-12 col-md-2 col-lg-12">
+        <div class="col-12 col-md-4 col-lg-12">
         <h2 id="contacto-titulo">Contacto</h2>
         <form action="mailto:julieta.giova@gmail.com" method="post">
         <fieldset>
         <legend>Formulario de contacto</legend>
-        <label for="nombre">Nombre:</label>
-        <input type="text" name="nombre" required>
-        <label for="email">E-mail:</label>
-        <input type="email" name="email" required>
-        <label for="text">Tu mensaje</label>
-        <textarea name="Consulta" cols="30" rows="10"></textarea>
+          <div class="form">
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" required>
+            <label for="email" >Email</label>
+            <input type="email" required>
+            <label for="consulta">Consulta</label>
+            <textarea class="consulta" id="exampleFormControlTextarea1" cols="30" rows="10"></textarea required>
+          </div>        
         <input id=botonenviar type="submit" value="Enviar el formulario">
         </fieldset>
         </form>
@@ -131,7 +135,14 @@
         </section>
     </div>
     <div class="subir">
-    <a href="#home-titulo"><img src="images/arrow1.png" alt="subir"></div></a>
+    <a href="#iso"><img src="imagenes/arrow1.png" alt="subir"></div></a>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> 
+    <footer>
+      <a href="https://www.instagram.com/juligiova.dsg/" target="_blank"><img id="ig" src="imagenes/instagram.png" alt="Instagram"></a>
+      <a href="https://www.facebook.com/" target="_blank"><img id="fb" src="imagenes/facebook.png" alt="Facebook"></a>
+      <div id="wireframe">
+      <p>JG DSG® 2023</p></a>
+      </div>
+  </footer>
 </body>
 </html>
