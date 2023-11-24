@@ -5896,11 +5896,11 @@ textarea.form-control-lg {
 }
 
 .carousel-control-prev {
-  left: 0;
+  left: 50;
 }
 
 .carousel-control-next {
-  right: 0;
+  right: 50;
 }
 
 .carousel-control-prev-icon,
